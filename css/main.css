@@ -49,10 +49,50 @@ p {
   margin-top: 1rem;
 }
 
-p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(7), p:nth-of-type(8) {
+p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(11), p:nth-of-type(12) {
   color: #3f83c4;
 }
 
 @media only screen and (min-width: 38em) {
+
+  .message {
+    font-size: 1.3rem;
+  }
+
+  .citation {
+    font-size: 1.05rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    line-height: 1.4;
+  }
+
+  .message {
+    font-size: 1.4rem;
+  }
+
+  .citation {
+    font-size: 1.15rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    line-height: 1.5;
+  }
+
+  .message {
+    font-size: 1.6rem;
+  }
+
+  .citation {
+    font-size: 1.25rem;
+  }
 
 }
